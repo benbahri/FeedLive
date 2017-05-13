@@ -1,3 +1,11 @@
+/*
+Theme Name: Feed Live
+Author: My Name
+Description: Bootstrap Blog template converti en WordPress
+Version: 1.0.1
+Tags: HTML Bootstarp CSS
+*/
+
 /* reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
@@ -24,7 +32,7 @@ img{max-width:100%;}
 /*end reset*/
 body{
 	font-family: Arial, Helvetica, sans-serif;
-	background:#46463C url(../images/bg.png);
+	background:#46463C url(images/bg.png);
 	border-top: 7px outset #ea4c89;
 }
 .wrap{
@@ -186,7 +194,7 @@ body{
 .content-pagenation{
 	float:left;
 	margin-top: 26px;
-	background: url(../images/content-border-bottom.png) bottom;
+	background: url(images/content-border-bottom.png) bottom;
 }
 .content-pagenation ul li{
 	list-style:none;
@@ -235,12 +243,12 @@ body{
 	border:none;
 }
 .search-bar input[type="submit"]{
-	background: url(../images/search.png);
+	background: url(images/search.png);
 	height: 37px;
 	width: 42px;
 }
 .search-bar input[type="submit"]:hover{
-	background: url(../images/search1.png);
+	background: url(images/search1.png);
 	cursor:pointer;
 }
 .search-bar input[type="text"]{
@@ -339,7 +347,7 @@ body{
 	border-bottom: 5px solid #ea4c89;
 }
 .singlepage1 h3:before{
-	content: url(../images/r-blog.png);
+	content: url(images/r-blog.png);
 	vertical-align: middle;
 	margin-right: 3px;
 }
